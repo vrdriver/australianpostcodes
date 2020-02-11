@@ -1,5 +1,3 @@
-I just did some minor updates to this repository and added a PHP import script.
-
 # Australian Post Codes
 A community sourced comprehensive database of Australian Post Codes with geolocation data.
 
@@ -46,3 +44,8 @@ As long and type are reserved words in MySQL, it's been addressed directly in th
 
 Also, you may need to clean the data a little more that comes from the original CSV source as it contained multiple entries of ""NAME"" instead of "NAME", which tends to break things like this on CSV imports.
 
+## PHP insert script
+This script will take the CSV file and insert it in to a mysql db.
+
+## PHP geoJSON Postcode boundaries Insertion Script.
+Using the postcode boundary files from stephenmuss, I have made a script which matches the name and state from the postcodes db, and then inserts the Postcode in the geoJSON file.
