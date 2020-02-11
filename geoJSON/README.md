@@ -7,6 +7,9 @@ You will also need to have postcodes loaded in a mysql database.
 The, change the reading and writing filename variables to reflect the in and the out files.
 
 
+Merge file is called: _postcode_insert.php
+
+
 Resources required:
 
 This is for inserting postcodes, and to be used in conjunction with 
